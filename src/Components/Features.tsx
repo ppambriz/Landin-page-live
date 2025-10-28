@@ -33,9 +33,9 @@ const features: Feature[] = [
 
 export const Features = () => {
   return (
-    <div className="flex flex-col gap-20 mt-[140px]">
+    <div  className="flex flex-col gap-20 mt-[140px]">
       {features.map(({ title, description, iconUrl }: Feature) => (
-        <div className="flex flex-col items-center text-center">
+        <div key={title} className="flex flex-col items-center text-center">
           <img src={iconUrl} alt={title} />
           <div>
             <h3 className="font-bold my-2">{title}</h3>

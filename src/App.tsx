@@ -1,8 +1,14 @@
-import { Header, Hero, Features, MoreInformation, Testimonials, } from "./Components";
+import {
+  Header,
+  Hero,
+  Features,
+  MoreInformation,
+  Testimonials,
+} from "./Components";
 
 function App() {
   return (
-    <main className="border border-white w-[375px] m-auto">
+    <main className="w-[375px] m-auto">
       <section className="bg-navy-850 p-8 h-[420px] relative">
         <Header />
 
