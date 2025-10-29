@@ -4,6 +4,8 @@ import {
   Features,
   MoreInformation,
   Testimonials,
+  Form,
+  Footer,
 } from "./Components";
 
 function App() {
@@ -25,12 +27,17 @@ function App() {
         />
       </section>
 
-      <section className="bg-navy-900 p-5">
+      <section className="bg-navy-900 p-5 pb-[300px]">
         <Hero />
         <Features />
         <MoreInformation />
         <Testimonials />
       </section>
+
+      <section className="bg-navy-950 relative">
+        <Form />
+        <Footer />
+      </section>      
     </main>
   );
 }

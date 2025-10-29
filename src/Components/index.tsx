@@ -5,3 +5,5 @@ export { Button } from "./Button";
 export { Features } from "./Features";
 export { MoreInformation } from "./MoreInformation";
 export { Testimonials } from "./Testimonials";
+export { Form } from "./Form";
+export { Footer } from "./Footer";
