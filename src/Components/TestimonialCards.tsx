@@ -7,7 +7,7 @@ interface Props {
 
 export const TestimonialCards = ({name,image,quote,role}: Props) => {
   return (
-    <div className="bg-navy-850 rounded-sm p-6 w-[280px]">
+    <div className="bg-navy-850 rounded-sm p-6 w-[280px] md:w-[420px]">
       <blockquote className="text-[0.75rem] mb-4">{quote}</blockquote>
       <div className="gap-2 flex items-center">
         <img className="size-6 rounded-full" src={image} alt="name" />

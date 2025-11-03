@@ -10,18 +10,18 @@ import {
 
 function App() {
   return (
-    <main className="w-[375px] m-auto">
-      <section className="bg-navy-850 p-8 h-[420px] relative">
+    <main className="m-auto">
+      <section className="bg-gray-400 p-8 h-[420px] relative md:h-[650px]">
         <Header />
 
         <img
-          className="relative z-10 mt-10"
+          className="relative z-10 mt-10 md:max-w-[450px] mx-auto"
           src="/public/images/illustration-intro.png"
           alt="Intro ilustration"
         />
 
         <img
-          className="absolute left-0 bottom-0"
+          className="absolute left-0 bottom-0 w-full"
           src="/images/bg-curvy-mobile.svg"
           alt="bg-curvy-mobile"
         />
