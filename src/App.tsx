@@ -21,9 +21,15 @@ function App() {
         />
 
         <img
-          className="absolute left-0 bottom-0 w-full"
+          className="absolute left-0 bottom-0 w-full xl:hidden"
           src="/images/bg-curvy-mobile.svg"
           alt="bg-curvy-mobile"
+        />
+
+        <img
+          className="absolute left-0 bottom-0 w-full hidden xl:block"
+          src="/images/bg-curvy-desktop.svg"
+          alt="bg-curvy-desktop"
         />
       </section>
 
@@ -34,7 +40,7 @@ function App() {
         <Testimonials />
       </section>
 
-      <section className="bg-navy-950 relative">
+      <section className="bg-navy-950 relative md:pl-20">
         <Form />
         <Footer />
       </section>      
